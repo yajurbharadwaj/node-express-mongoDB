@@ -76,11 +76,11 @@ fs.writeFile(path.join(__dirname,'reply.txt'), 'nice to meet you', (err) => {
   fs.appendFile(path.join(__dirname,'reply.txt'), '\n\n i am now learning', (err) => { //the append file can modify a file or append to it and also create afile if there is no existing file
     if (err) throw err;
     console.log('append complete');
-  })
 
   fs.rename(path.join(__dirname,'reply.txt'), path.join(__dirname,'Newreply.txt'), (err) => { //the rename can modify the file name 
     if (err) throw err;
     console.log('rename complete');
+    })
   })
 })
 
