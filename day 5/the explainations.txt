@@ -1,0 +1,15 @@
+Import modules / dependencies
+ A minimal server
+ Two inefficient approaches
+ Setting the Content-Type
+ Setting the file path
+ Make the html extension optional
+ Does the requested file exist?
+ Routing redirects
+ Basic serveFile function 
+ Calling the serveFile function
+ Serving JSON with the serveFile function
+ Serving images with the serveFile function
+ Sending a 404 status code
+ Logging requests and errors
+ Up and running with the web server
