@@ -1,0 +1,8 @@
+<html>
+    <head>
+        <title> advertizement </title>
+    </head>
+    <body> 
+        <img scr="img/img1.jpg" alt="computer zone"/>
+    </body>
+</html>
