@@ -1,0 +1,3 @@
+20230827	13:58:34	0327dbaa-b712-4cae-afca-07a577514c45	Error: Not allowed by CORS
+20230828	14:44:35	ac84e64d-c461-48ac-942a-3b5573de4f6c	TypeError: data.employees.find is not a function
+20230828	22:14:07	48eb32ac-86b6-4ddb-aaf1-16b3317fb814	SyntaxError: Unexpected token y in JSON at position 14
