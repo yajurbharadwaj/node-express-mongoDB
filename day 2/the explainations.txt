@@ -1,0 +1,21 @@
+day 2
+
+Use the NodeJS docs
+How to read a file with Node.js
+How to handle uncaught errors
+Async example
+Path module
+How to write to a file with Node.js
+How to update a file with Node.js
+Nested operations
+Callback hell
+fsPromises
+Replace Callback hell with Async Await
+How to delete a file with Node.js
+Readstream for large files
+Writestream for large files
+Stream data listener
+Piping data streams
+How to create a directory with Node.js
+How to check if a file or directory exists 
+How to remove a directory with Node.js

@@ -1,0 +1,158 @@
+Git and it’s commands
+
+Git is a distributed version control system (DVCS) that helps software development teams track changes to source code over time. It was created by Linus Torvalds in 2005 and has become one of the most widely used version control systems in the software development industry. Git is designed to manage projects of all sizes and scales, from small personal projects to large, collaborative open-source initiatives.
+concepts:
+Repository (Repo):
+A repository is a collection of files and folders along with the complete history of changes made to them. 
+It exists on both local machines and remote servers. 
+Git repositories enable collaborative development, allowing multiple developers to work on the same codebase.
+
+Commit:
+A commit is a snapshot of changes made to the files in a repository. 
+Each commit has a unique identifier, a timestamp, and a message that describes the changes made. 
+Commits form a timeline of the project's history.
+
+Branch:
+A branch is a separate line of development within a repository. 
+It allows developers to work on different features or fixes concurrently without interfering with the main codebase. 
+Branches can be merged back into the main branch (usually called the "master" or "main" branch) when the work is complete.
+
+Merge:
+Merging combines the changes from one branch into another. 
+For example, you might merge a feature branch into the main branch to incorporate new functionality into the project.
+
+Pull Request (PR):
+In Git repositories hosted on platforms like GitHub, a pull request is a way to propose and review changes made in a branch before merging them into the main branch. 
+This allows for collaboration and code review.
+
+Push and Pull:
+Pushing refers to sending local commits to a remote repository, making them accessible to others. 
+Pulling refers to fetching changes from a remote repository and integrating them into your local repository.
+
+Remote:
+A remote is a copy of a repository stored on a server. 
+Developers can clone repositories from remotes to their local machines, and they can push their local changes back to the remote.
+
+Fetch:
+Fetching retrieves changes from a remote repository without merging them into your local branch. 
+This allows you to see what's been updated before deciding to merge or pull.
+
+Clone:
+Cloning is the process of creating a local copy of a remote repository. 
+This provides you with the entire history of the project and allows you to work on it offline.
+
+Staging Area (Index):
+The staging area is where you prepare changes before committing them. 
+Files that have been modified are "staged" using the git add command before being committed.
+
+Working Directory:
+The working directory is the place where you make changes to your files. 
+After you've modified files, you stage and commit those changes.
+
+Rebase:
+Rebase is a process used to move, combine, or modify the commit history. 
+It allows you to incorporate changes from one branch onto another in a more linear fashion than traditional merging.
+
+Git is a distributed version control system designed to track changes in source code during software development.
+It helps developers collaborate on projects by providing a way to manage and track changes to files, as well as allowing multiple people to work on the same codebase simultaneously without conflicts.
+Git also provides a history of all changes made to a project, making it easy to roll back to previous versions or analyze the evolution of the codebase.
+some commonly used Git commands:
+git init: 
+Initializes a new Git repository in a directory. 
+This creates a '.git' subdirectory that stores all the version control information for the project.
+git clone: 
+Copies a repository from a remote source (like GitHub) to your local machine.
+This command fetches all the code, history, and branches, allowing you to work on the project locally.
+git add: 
+Stages changes for commit. Before changes are recorded in a commit, they need to be staged using this command. 
+You specify which files or changes you want to include in the next commit.
+git commit: 
+Records changes in the repository. A commit creates a snapshot of the changes you've staged. 
+Each commit has a unique identifier and includes a message describing the changes made.
+git status: 
+Displays the status of changes in your working directory. 
+It shows which files have been modified, which are staged for commit, and which are not tracked by Git.
+git log: 
+Shows the commit history of the repository. 
+It displays a list of commits, including their authors, dates, and commit messages.
+git pull: 
+Fetches changes from a remote repository and integrates them into your current branch. 
+It's essentially a combination of git fetch and git merge.
+git push: 
+Uploads local commits to a remote repository. 
+This is how you share your changes with others.
+git branch: 
+Lists, creates, or deletes branches. 
+Branches allow you to work on different features or fixes simultaneously without affecting the main codebase.
+git checkout: 
+Switches between branches or commits. 
+You can use it to navigate through the history or to switch to a different branch.
+git merge: 
+Integrates changes from one branch into another. 
+This combines the changes made on one branch with another branch.
+git rebase: 
+Moves or combines a sequence of commits to a new base commit. 
+This is an alternative to merging and can lead to a linear commit history.
+git stash: 
+Temporarily stores changes that you're not ready to commit. 
+This is useful when you need to switch branches quickly without committing your current changes.
+git remote: 
+Manages connections to remote repositories. 
+You can add, rename, or remove remote repositories that you interact with.
+git fetch: 
+Retrieves changes from a remote repository without merging them. 
+It updates your local repository's knowledge of remote branches.
+
+there are still more git commands and each creates different functionality.
+I would like to add some more git commands in ascending order
+1.	git add: Add file contents to the index (staging area) for the next commit.
+2.	git am: Apply a series of patches from a mailbox.
+3.	git annotate: Annotate file lines with commit information.
+4.	git apply: Apply a patch to files and/or to the index.
+5.	git archimport: Import an Arch repository into Git.
+6.	git bisect: Use binary search to find the commit that introduced a bug.
+7.	git branch: List, create, or delete branches.
+8.	git bundle: Move objects and refs by archive.
+9.	git cat-file: Provide content or type and size information for repository objects.
+10.	git check-ignore: Debug gitignore / exclude files.
+11.	git check-ref-format: Ensure that a ref name is well-formed.
+12.	git checkout: Switch branches or restore working tree files.
+13.	git cherry: Find commits yet to be applied to upstream.
+14.	git cherry-pick: Apply the changes introduced by some existing commits.
+15.	git citool: Graphical alternative to git-commit.
+16.	git clean: Remove untracked files from the working directory.
+17.	git clone: Clone a repository into a new directory.
+18.	git commit: Record changes to the repository.
+19.	git describe: Show the most recent tag that is reachable from a commit.
+20.	git diff: Show changes between commits, commit and working tree, etc.
+21.	git fetch: Download objects and refs from another repository.
+22.	git format-patch: Prepare patches for e-mail submission.
+23.	git fsck: Verifies the connectivity and validity of the objects in the database.
+24.	git gc: Cleanup unnecessary files and optimize the local repository.
+25.	git grep: Print lines matching a pattern.
+26.	git gui: A portable graphical interface to Git.
+27.	git init: Create an empty Git repository or reinitialize an existing one.
+28.	git log: Show commit logs.
+29.	git merge: Join two or more development histories together.
+30.	git mv: Move or rename a file, a directory, or a symlink.
+31.	git notes: Add or inspect object notes.
+32.	git pull: Fetch from and integrate with another repository or a local branch.
+33.	git push: Update remote refs along with associated objects.
+34.	git range-diff: Compare two commit ranges by email.
+35.	git rebase: Reapply commits on top of another base tip.
+36.	git reflog: Manage reflog information.
+37.	git remote: Manage remote repository connections.
+38.	git repack: Pack unpacked objects in a repository.
+39.	git replace: Create, list, delete refs to replace objects.
+40.	git request-pull: Generates a summary of pending changes.
+41.	git reset: Reset current HEAD to the specified state.
+42.	git restore: Restore working tree files.
+43.	git revert: Revert some existing commits.
+44.	git rm: Remove files from the working tree and from the index.
+45.	git shortlog: Summarize git log output.
+46.	git show: Show various types of objects.
+47.	git stash: Stash changes in a dirty working directory.
+48.	git status: Show the working tree status.
+49.	git tag: Create, list, delete or verify a tag object signed with GPG.
+50.	git worktree: Manage multiple working trees.
+
