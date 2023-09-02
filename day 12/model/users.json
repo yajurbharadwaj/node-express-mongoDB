@@ -1,0 +1,21 @@
+[
+    {
+        "username": "yajur1",
+        "roles": {
+            "user": 2001,
+            "Editor": 1984
+        },
+        "password": "$2b$10$eQ0NtEybsJBhSxvhhOuHKe/XTFSZBpXPWGVXpxdM25Bp0ZqEGs08m",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InlhanVyMSIsImlhdCI6MTY5MzM5NTc2MCwiZXhwIjoxNjkzNDgyMTYwfQ.gBcUlZlfeXww8YrxYFRpEyfwR4uw1lLeXzilo6NTCu4"
+    },
+    {
+        "username": "yajur",
+        "roles": {
+            "user": 2001,
+            "Editor": 1984,
+            "Admin": 5150
+        },
+        "password": "$2b$10$AK2g/UtzVOEwIUvQGz4zEON/sa3ouDj1D4Ycb8DXNIyCe6BHVpGn2",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InlhanVyIiwiaWF0IjoxNjkzNTUzODM0LCJleHAiOjE2OTM2NDAyMzR9.n6kCrfijNXZReRqEscF070-Fk4B5h3Hais6fcpUGpec"
+    }
+]
