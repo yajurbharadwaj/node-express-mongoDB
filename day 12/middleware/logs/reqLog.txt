@@ -1,0 +1,4 @@
+20230826	15:08:36	70188e0e-d854-4b2f-8030-a1b5739f56b9	GET	undefined	/
+20230826	15:08:36	e7ce3a65-6ca4-4b6a-b58f-35ba32e501e3	GET	undefined	/css/style.css
+20230826	15:15:04	446bd4f6-6737-4d5f-9abb-e0bbbc75a68d	GET	undefined	/
+20230826	15:15:04	fd55aa74-a45a-4df7-8659-a13849a077dd	GET	undefined	/css/style.css
