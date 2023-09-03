@@ -1,0 +1,11 @@
+20230827	13:58:34	0327dbaa-b712-4cae-afca-07a577514c45	Error: Not allowed by CORS
+20230828	14:44:35	ac84e64d-c461-48ac-942a-3b5573de4f6c	TypeError: data.employees.find is not a function
+20230828	22:14:07	48eb32ac-86b6-4ddb-aaf1-16b3317fb814	SyntaxError: Unexpected token y in JSON at position 14
+20230830	16:46:21	868069ab-af3f-4215-b3f3-14681d942e88	SyntaxError: Unexpected token e in JSON at position 1
+20230830	16:50:12	1ff88acf-e1ef-494d-a4b5-04798da652ae	SyntaxError: Unexpected end of JSON input
+20230830	16:50:27	bff530e1-b483-4c4b-980e-7ad23c809cea	SyntaxError: Unexpected end of JSON input
+20230830	17:11:57	92f12899-3075-42b7-aa8b-391a52c45ff3	TypeError: res.sendstatus is not a function
+20230902	18:04:37	4ef42e6e-26a8-497f-94cc-141451d5fd2d	TypeError: Cannot read properties of undefined (reading 'username')
+20230902	18:11:34	2299e4de-e443-4688-85c2-448c61a7a462	SyntaxError: Unexpected end of JSON input
+20230902	18:11:43	b4e6be62-98b5-461a-94b2-3ff2e8e3e6ad	SyntaxError: Unexpected end of JSON input
+20230902	18:12:57	0b56a002-d364-4fe5-98ca-64f4faf53a8a	SyntaxError: Unexpected end of JSON input
